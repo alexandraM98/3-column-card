@@ -1,0 +1,124 @@
+
+
+html {
+    background-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+p, h1, img, button {
+    margin: 30px 40px 30px 40px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: white;
+}
+
+button {
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: hsl(0, 0%, 95%) !important;
+    background-color: inherit;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.card {
+    margin: 10% auto 10% auto;
+    text-align: left;
+    display: flex;
+}
+
+.sedans, .suvs, .luxury {
+    flex: 1;
+    padding: 5px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+/* For desktop: */
+@media only screen and (min-width: 600px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+}
+    
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    p, h1, img, button {
+        margin: 20px 15px 20px 15px;
+    }
+
+    .card {
+        display: block;
+        width: 91.66%;
+    }
+    
+    .sedans, .suvs, .luxury {
+        display: block;
+        padding: 5px;
+    }
+
+    .sedans {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .suvs {
+    }
+
+    .luxury {
+        border-radius: 0 0 10px 10px;
+    }
+    
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
