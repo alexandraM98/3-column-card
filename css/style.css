@@ -63,6 +63,7 @@ button:hover {
 .sedans, .suvs, .luxury {
     width: auto;
     padding: 20px;
+    flex: 1;
 }
 
 .sedans {
@@ -80,7 +81,7 @@ button:hover {
 }
 
     
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
