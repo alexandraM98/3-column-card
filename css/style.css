@@ -77,6 +77,16 @@ button:hover {
     border-radius: 0 10px 10px 0;
 }
 
+.sr-only {
+    position: absolute;
+    top: auto;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+}
+
     
 @media only screen and (max-width: 900px) {
 

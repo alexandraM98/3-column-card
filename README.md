@@ -11,5 +11,7 @@ Links
 
 ## Acknowledgments
 
-W3schools: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
-Many thanks to @pikamart who kindly provided feedback on my work and helped me adjust it accordingly.
+- W3schools: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+- Many thanks to @pikamart who kindly provided feedback on my work and helped me adjust it accordingly.
+- I also referred to the solution created by Grace Snow at https://grace-snow.github.io/fmentor-3-column-preview-card/ that I was pointed to by @pikamart to see how an sr-only h1 can be placed in the html document and how to style it accordingly.
+- To help me understand the styling of sr-only elements: https://stackoverflow.com/questions/19758598/what-is-sr-only-in-bootstrap-3
