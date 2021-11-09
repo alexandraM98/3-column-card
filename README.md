@@ -12,3 +12,4 @@ Links
 ## Acknowledgments
 
 W3schools: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+Many thanks to @pikamart who kindly provided feedback on my work and helped me adjust it accordingly.
