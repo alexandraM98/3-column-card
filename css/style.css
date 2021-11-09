@@ -82,10 +82,6 @@ button:hover {
 
     
 @media only screen and (max-width: 900px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
 
     p, h1, img, button {
         margin: 20px 15px 20px 15px;
